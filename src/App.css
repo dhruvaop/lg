@@ -1,0 +1,84 @@
+nav {
+  height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #ffffff, #ffa600);
+  /*color: rgb(255, 255, 255);*/
+  /* margin-bottom: 20px; */
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 30px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1.5em;
+}
+
+.navitems button {
+  width: 16%;
+  height: 6vh;
+  border: -3px solid transparent;
+  border-radius: 30px;
+  background-color: #79a7f0;
+  font-family: antialiased;
+  font-size: 21px;
+  margin: auto 3em;
+}
+
+.fetchbtn:hover {
+  background-color: rgb(26, 95, 224);
+  cursor: pointer;
+  font-size: x-large;
+  color: aliceblue;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(to top right, #ffffff, #ffa600);
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /*  padding-top: 10vh; */
+}
+.name:hover {
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.671);
+}
+
+.avatar {
+  border-radius: 30%;
+}
+
+.profile_cont {
+  border-radius: 15%;
+  background-image: radial-gradient(#fcfcfc00, #f8f8f800);
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(to bottom right, #ffffff13, #ffa600);
+}
